@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    /* outline: 1px solid red; */
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+h1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: rgba(30, 14, 98, 1);
+}
+
+.date {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgba(21, 20, 57, 0.4);
+    padding-bottom: 5px;
+}
+
+.para {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(30, 14, 98, 1);
+}
+
+h5 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(30, 14, 98, 1);
+}
+
+.para2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.design1 {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+.content {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(30, 14, 98, 1);
+    width: 50%;
+    margin-left: 10px;
+}
+
+span {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.box2 {
+    border: 2px solid rgba(235, 234, 237, 1);
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.input {
+    width: 220px;
+    height: 50px;
+    border-radius: 100px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    padding-left: 20px;
+    color: rgba(21, 20, 57, 0.4);
+    border: 2px solid rgba(235, 234, 237, 1);
+    margin-left: 35px;
+    margin-top: 19px;
+}
+
+.parabox {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(30, 14, 98, 1);
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.para2box {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(21, 20, 57, 0.4);
+    margin-left: 35px;
+}
+
+button {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 100px;
+    background: rgba(37, 218, 197, 1);
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.box3 {
+
+    margin-top: 35px;
+}
+
+.more {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 100px;
+    background: rgba(233, 58, 125, 1);
+    margin-top: 40px;
+}
+
+@media (min-width:992px) {
+    .col-lg-8 {
+        width: 66.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width:992px) {}
+
+.w-100 {
+    width: 100%;
+}
+
+/* .image {
+   width: 100%;
+    
+} */
+/* 
+@media (min-width:992px) {
+    .col-lg-8 {
+        width: 66.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+@media (min-width:768px) {
+    .col-md-4 {
+            width: 33.33%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+} */
